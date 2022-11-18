@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;600;700&family=Rubik:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+    font-family: 'Rubik', sans-serif;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 136px;
+    left: 0px;
+    top: 0px;
+}
+
+#topMenu {
+    position: absolute;
+    width: 100%;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    color: white;
+    background: #2A41E8;
+}
+
+
+.divAddress {
+    position: absolute;
+    width: 260px;
+    height: 19px;
+    left: 35px;
+    top: 14px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.menuAddress {
+    position: absolute;
+    height: 18px;
+    left: 11.95%;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.divMenuPhone {
+    position: absolute;
+    width: 146px;
+    height: 18px;
+    left: 314px;
+    top: 14px;
+}
+
+.menuPhone {
+    position: absolute;
+    height: 16px;
+    left: 21.23%;
+    right: 0.68%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.divmenuHours {
+    position: absolute;
+    width: 247px;
+    height: 18px;
+    left: 489px;
+    top: 14px;
+}
+
+.menuHours {
+    position: absolute;
+    height: 18px;
+    left: 12.55%;
+    right: 0%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+
+
+.divMenuLog {
+    position: absolute;
+    height: 17px;
+    left: 88%;
+    top: 14px;
+}
+
+.menuLog {
+    position: absolute;
+    height: 17px;
+    left: 31.58%;
+    right: 0%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.mainMenu {
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    left: 0px;
+    top: 44px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.logoMenu {
+    margin-left: 15px;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.linksheader {
+    display: flex;
+    display: row;
+    gap: 15px;
+}
+
+.aMainMenu {
+    height: 17px;
+    right: 26.67%;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    text-decoration: none;
+    color: rgba(75, 77, 79, 1);
+}
+
+.btnFavorite{
+    color: #FF5E14;
+    font-size: 15px;
+    font-weight: 700;
+    
+}
+#compareMenu {
+    position: absolute;
+    left: 900px;
+    width: 200px;
+}
+
+.btnSubmit {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 14px;
+    position: absolute;
+    left: 1080px;
+    top: 0px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: #ffffff;
+    background: #FF5E14;
+    cursor: pointer;
+}
+
+
+
+.heroHeader {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 94px;
+    background-image: url("./img/hero-bg-image.png");
+    background-size: cover;
+}
+.vistaInmueble{
+    margin-top: 100PX;
+    margin-left: 100PX;
+    gap: 20px;
+    display: flex;
+    justify-content: left;
+    width: 90%;
+}
+.infoInmueble{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.imgInmueble1{
+    width: 600px;
+    height: 400px;
+    box-shadow: 5px 5px 20px 1px  black;
+}
+
+.headerDatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 13.08%;
+    right: 13.14%;
+    top: 44.34%;
+    bottom: 37.71%;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+#selectType {
+    Width: 230px;
+    Height: 50%;
+}
+
+#selectStatus {
+    Width: 150px;
+    Height: 50%;
+}
+
+.input-search {
+    Width: 340px;
+    Height: 48%;
+}
+
+.btn {
+    width: 130px;
+    height: 50%;
+    background: #2A41E8;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.input-search {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 12px;
+}
+
+.select {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.header {
+    position: absolute;
+    top: 100px;
+    left: 170px;
+    color: #ffffff;
+}
+
+.headerP {
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /*se cambio a relative*/
+    top: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.headerContainer {
+
+    gap: 10px;
+    display: flex;
+    position: absolute;
+    width: 530px;
+    height: 96px;
+    left: 400px;
+    top: 619px;
+}
+
+.HeaderCasaroyal {
+    color: rgba(140, 140, 140, 1);
+    position: absolute;
+    width: 530px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.datosHeadercontainer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 66px;
+    right: 0.19%;
+    top: 20px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 66px;
+    color: #111111;
+}
+.headerPropertis{
+    font-weight: 200;
+}
+.sectionCards {
+    position: absolute;
+    width: 100%;
+    height: 11023px;
+    left: 0px;
+    top: 0px;
+
+    background: #FAFAFA;
+}
+
+/* CARDS INMUEBLES */
+
+.card-container {
+    flex-direction: row;
+    position: relative;
+    width: 398px;
+    height: 500px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.img-inmueble {
+    justify-content: center;
+    width: 400px;
+    height: 260px;
+}
+.type-inmueble {
+    font-size: 12px;
+    position: absolute;
+    top: 24px;
+    left: 25px;
+    background-color: rgba(42, 66, 232, 1);
+    color: white;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.status-inmueble {
+    font-size: 12px;
+    position: absolute;
+    top: 24px;
+    left: 110px;
+    padding: 5px;
+    gap: 10px;
+    text-align: center;
+    background-color: rgba(255, 94, 21, 1);
+    color: white;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.price-inmueble {
+    color: rgba(42, 65, 232, 1);
+    font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    padding: 5px 10px 0px 10px;
+    top: 221px;
+    left: 26px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.cardTitle {
+    position: absolute;
+    top: 330px;
+    padding: 5px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+}
+
+.card-info {
+    padding-top: 1px;
+    text-align: center;
+}
+
+.cardInfoLocation {
+    position: absolute;
+    top: 290px;
+    color: rgba(132, 132, 132, 1);
+    text-align: left;
+    padding: 0px 0px 0px 40px;
+}
+
+.photoAgent {
+    position: absolute;
+    top: 150px;
+    left: 42px;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+}
+
+.img-inmueble {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+}
+
+.nameAgente {
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    color: rgba(42, 65, 232, 1);
+}
+
+.footerCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    width: 95%;
+    padding: 0px 0px 0px 10px;
+}
+
+
+.divArea {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+.divinfoInm {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    gap: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footerGarage,
+.footerBaths,
+.footerRoom {
+    font-size: 16px;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.iconCard {
+    width: 14px;
+    height: 14.95px;
+}
+
+.cardCreated {
+    position: absolute;
+    color: rgba(132, 132, 132, 1);
+    left: 280px;
+    top: 150px;
+}
+
+/* CARDS CONTAINER */
